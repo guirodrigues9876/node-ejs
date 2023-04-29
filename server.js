@@ -37,7 +37,6 @@ app.get("/", function (req, res){
     res.render("pages/index", {
         qualities: items,
         subtitle: subtitle,
-
     });
 })
 
